@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "luisa";
+    src: url(font/LuÃ­sa.ttf);
+}
+@font-face {
+    font-family: "spider";
+    src: url(font/the_amazing_spider_man/The\ Amazing\ Spider-Man.ttf);
+}
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: black;
+
+}
+.fundo {
+    position: absolute;
+    width: 1370px;
+    height: 800px;
+    
+}
+.caixa {
+    position: absolute;
+    width: 1370px;
+    height: 800px;
+    top: -10px;
+    left: -10px;
+}
+
+.caixa1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.caixa2 {
+    background-image: linear-gradient(to top, #1a2841 0%, #0b1322 100%, #080a0e 100%);
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    margin-left: 90px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.aranha {
+    position: absolute;
+    opacity: .2;
+    width: 480px;
+    left: 60px;
+    top: 50px;
+}
+
+.caixa3 {
+    position: absolute;
+    color: white;
+    width: 400px;
+    top: 150px;
+    left: 150px;
+}
+
+.caixa3 h1 {
+    font-family: "spider";
+    margin-left: 30px;
+    font-size: 50px;
+    
+}
+
+.caixa3 p {
+    font-family: "luisa";
+    text-align: center;
+    font-size: 14px;
+    margin-left: -100px;
+    margin-top: -20px;
+
+}
+
+.but1 {
+    width: 150px;
+    border-radius: 10px;  
+    background-color: red; 
+    padding: 15px 5px;
+    box-shadow: 0px 0px 15px red;
+    margin-left: -30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.but1 li {
+    list-style: none;
+    text-align: center;
+}
+.but1 a {
+    font-family: "luisa";
+    text-decoration: none;
+    color: white;
+}
+.but2 {
+    position: absolute;
+    width: 200px;
+    border-radius: 10px;  
+    background-color: red; 
+    padding: 15px 5px;
+    box-shadow: 0px 0px 15px red;
+    margin-left: 150px;
+    margin-top: 214px;
+    cursor: pointer;
+}
+.but2 li {
+    list-style: none;
+    text-align: center;
+}
+.but2 a {
+    font-family: "luisa";
+    text-decoration: none;
+    color: white;
+}
+
+.spider {
+    position: absolute;
+    width: 890px;
+    margin-left: 440px;
+    margin-top: 60px;
+}
+
+.menu {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.menu ul {
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 50px;
+}
+.menu a {
+    font-family: "luisa";
+    text-decoration: none;
+    color: red;
+}
+.menu a:hover {
+    color: brown;
+
+}
+
+.logo {
+    position: absolute;
+    width: 180px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.logo1 {
+    position: absolute;
+    width: 50px;
+    margin-left: 1100px;
+    margin-top: 25px;
+}
+
+.produtora {
+    position: absolute;
+    width: 100px;
+    margin-left: 980px;
+    top: 36px;
+}
+
+/* video */
+
+input {
+    display: none;
+}
+
+label video {
+    position: absolute;
+    width: 1420px;
+    opacity: .0;
+    cursor: pointer;
+}
+label video:hover {
+    opacity: 10;
+}
+
+#spider1:checked ~ .s1 {
+    -webkit-transition: all 1s ease;
+    margin-top: -120%;
+}
+#spider2:checked ~ .s1 {
+    -webkit-transition: all 1s ease;
+    margin-top: 0%;
+}
+
+/* conteudo */
+
+.cont {
+    position: absolute;
+    margin-top: 10px;
+    font-family: "luisa";
+    height: 0px;
+}
+
+.cont hr {
+    margin-top: -80px;
+    margin-left: 0px;
+    width: 110px;
+    border: 2px solid rgba(255, 255, 255, 0.658);
+}
+.cont h1 {
+    color: white;
+    margin-left: 60px;
+    display: inline-block;
+    margin-top: 530px;
+    text-align: center;
+}
+.h01 {
+    position: absolute;
+    margin-top: -100px;
+}
+.cont span{
+    font-size: 20px;
+}
+
+.cont p {
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    font-size: 10px;
+}
+
+.cont div {
+    margin-left: 140px;
+    margin-right: -120px;
+    width: 200px;
+    height: 0px;
+    display: inline-block;
+}
+
+
+
